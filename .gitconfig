@@ -1,0 +1,66 @@
+########################################################
+#|#                                                    #
+########################################################
+[user]
+	name = Aldo Rafael Perez
+	email = aldo.perez@jhuapl.edu
+[core]
+	editor = vim
+	whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+	autocrlf= input
+# [sendemail]
+# 	smtpencryption = 
+# 	smtpserver = 
+# 	smtpuser = 
+# 	smtppass = 
+# 	smtpserverport = 
+[web]
+	browser = google-chrome
+# [instaweb]
+# 	httpd = 
+# [rerere]
+# 	enabled = 
+# 	autoupdate = 
+# [push]
+# 	default = 
+[color]
+	ui = auto
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[github]
+	user = aldorperez1
+	token = token
+	
+# [gitflow "prefix"]
+# 	feature = feature-
+# 	release = release-
+# 	hotfix = hotfix-
+# 	support = support-
+# 	versiontag = v
+
+########################################################
+#|#      URL Aliases                                   #
+########################################################
+[url "https://github.com/"]
+    insteadOf = gh:
+
+[url "https://gist.github.com/"]
+    insteadOf = gist:
+
+[url "https://bitbucket.org/"]
+    insteadOf = bb:
